@@ -2,12 +2,12 @@ import React from "react";
 
 function Card() {
     return(
-<div className="flex justify-evenly">
+<div className="flex justify-evenly" id="service">
   <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
       <img className="rounded-t-lg" src="./acceuil.JPG" alt="" />
     </a>
-    <div className="p-5">
+    <div className="p-5 bg-#2ECC71">
       <a href="#">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
       </a>
