@@ -19,6 +19,7 @@ module.exports = {
         'soft-beige': '#D3C0A6',
         'sun-yellow': '#F2C14E',
         'vibrant-orange': '#E67E22',
+        'green' : '#0078D7'
       },
     },
   },
