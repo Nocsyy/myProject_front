@@ -26,7 +26,7 @@ export default function About() {
   }, [textInView]);
 
   return (
-    <div className="bg-gray-100 dark:bg-gray-900 min-h-screen">
+    <div className="bg-gray-100 dark:bg-gray-900 min-h-screen qui-sommes-nous">
       <Head>
         <title>À propos de nous - Memo Nettoyage</title>
         <meta name="description" content="Découvrez qui nous sommes et ce que nous faisons chez Memo Nettoyage." />
