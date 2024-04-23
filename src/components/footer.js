@@ -1,14 +1,10 @@
 import React from "react";
-import {authConfig} from "@/pages/api/auth/[...nextauth]";
+import {authConfig} from "../pages/api/auth/[...nextauth]";
 import { LoginButton } from "./auth/loginButton";
 import { getServerSession } from 'next-auth';
+import { useState, useEffect } from "react";
 export default async function Footer (){
-    const session = await getServerSession(authConfig);
-    if (session) {
-      return(
-        <p>{JSON.stringify(session, null, 2)}</p>
-      )
-    }
+
     return(
         
 
